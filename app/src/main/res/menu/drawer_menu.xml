@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"/>
+
+        <item
+            android:id="@+id/nav_account"
+            android:title="my account"
+            android:icon="@drawable/ic_account"/>
+        <item
+            android:id="@+id/nav_sales"
+            android:title="Sales"
+            android:icon="@drawable/ic_account"/>
+        <item
+            android:id="@+id/nav_myorders"
+            android:title="my orders"
+            android:icon="@drawable/ic_account"/>
+        <item
+            android:id="@+id/nav_favorites"
+            android:title="Favorites"
+            android:icon="@drawable/favorite"/>
+        <item
+            android:id="@+id/nav_farmingprofile"
+            android:title="farmingprofile"
+            android:icon="@drawable/ic_account"/>
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"
+            android:icon="@drawable/ic_home"/>
+        <!-- Add more items as needed -->
+    </group>
+
+</menu>
